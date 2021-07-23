@@ -185,6 +185,12 @@ body {
     color: white;
     border: 1px solid white;
 }
+.icons img {
+    margin-right: 10px;
+}
+footer {
+    text-transform: uppercase;
+}
 /* media queries */
 @media (max-width: 768px) {
   .intro h1 {
