@@ -35,6 +35,12 @@ body {
     padding-top: 100px;
 }
 
+/* about us */
+.about_us h2 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
 /* media queries */
 @media (max-width: 768px) {
     .intro h1 {
