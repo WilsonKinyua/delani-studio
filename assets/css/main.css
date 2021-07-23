@@ -155,6 +155,22 @@ body {
   opacity: 1;
 }
 
+/* contact us */
+
+.contact-us h2 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contact-us {
+  background-image: url("../img/bg/c_image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 95vh;
+}
+
 /* media queries */
 @media (max-width: 768px) {
   .intro h1 {
