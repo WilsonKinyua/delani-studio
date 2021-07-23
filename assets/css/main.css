@@ -171,6 +171,20 @@ body {
   height: 95vh;
 }
 
+.form-control, .form-control:focus, .form-control:active {
+    background: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    color: white !important;
+}
+
+.form-control::placeholder{
+    color: white;
+}
+
+.btn {
+    color: white;
+    border: 1px solid white;
+}
 /* media queries */
 @media (max-width: 768px) {
   .intro h1 {
