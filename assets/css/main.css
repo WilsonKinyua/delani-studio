@@ -41,6 +41,25 @@ body {
     font-weight: 500;
 }
 
+/* services */
+
+.services {
+    background-image: url('../img/bg/s_image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.services h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.service_text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
 /* media queries */
 @media (max-width: 768px) {
     .intro h1 {
