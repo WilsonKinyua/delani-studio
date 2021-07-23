@@ -60,24 +60,101 @@ body {
 }
 
 /* what we do */
-.what_we_do h2 {
+.what_we_do h2,
+.portfolio h2 {
   font-weight: 600;
   text-transform: uppercase;
 }
 
 .what_we_do h3 {
-    text-transform: uppercase;
-    font-size: 15px;
-    margin-top: 2px;
-    font-weight: 600;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 2px;
+  font-weight: 600;
 }
 .what_we_do img {
-    height: 70px;
+  height: 70px;
 }
 
-#p-design, #p-development, #p-product {
-    display: none;
+#p-design,
+#p-development,
+#p-product {
+  display: none;
 }
+
+/* portfolio */
+.portfolio-card {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.portfolio-card .portfolio-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.portfolio-img {
+  width: 100%;
+}
+
+.project-name {
+  position: absolute;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.project-name h3 {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+  border: 3px solid rgb(255, 255, 255);
+  padding: 30px;
+}
+
+.project-name p {
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.fadeIn-bottom {
+  top: 80%;
+}
+
+.portfolio-card:hover .portfolio-overlay {
+  opacity: 1;
+}
+
+.portfolio-card:hover .project-name {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
 /* media queries */
 @media (max-width: 768px) {
   .intro h1 {
