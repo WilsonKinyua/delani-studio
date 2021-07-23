@@ -34,3 +34,15 @@ body {
 .mouse_click{
     padding-top: 100px;
 }
+
+/* media queries */
+@media (max-width: 768px) {
+    .intro h1 {
+        font-size: 2em;
+    }
+    .mouse_click {
+        padding-top: 80px;
+    }
+
+}
+
