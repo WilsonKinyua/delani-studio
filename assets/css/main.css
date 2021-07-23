@@ -7,6 +7,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.error {
+    font-size: 15px;
+    display: none;
+}
+
+.success {
+    display: none;
+}
+
 /* homepage */
 
 .homepage {
