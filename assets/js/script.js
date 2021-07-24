@@ -1,12 +1,36 @@
 $(document).ready(function () {
 
     //  what we do section
+    $("#design").click(function (e) {
+        $("#design").toggle();
+        $("#p-design").show();
+    });
 
+    $("#development").click(function (e) {
+        $("#development").toggle();
+        $("#p-development").toggle();
+    });
 
+    $("#product").click(function (e) {
+        $("#product").toggle();
+        $("#p-product").toggle();
+    });
 
+    $("#p-design").click(function (e) {
+        $("#design").toggle();
+        $("#p-design").toggle();
+    });
 
+    $("#p-development").click(function (e) {
+        $("#development").toggle();
+        $("#p-development").toggle();
+    });
 
-    
+    $("#p-product").click(function (e) {
+        $("#product").toggle();
+        $("#p-product").toggle();
+    });
+
     // portfolio effects
     $(".div1").hover(function () {
         // over
@@ -19,7 +43,7 @@ $(document).ready(function () {
             $(".pn1").removeClass("portfolio-hover-effect");
         }
     );
-    
+
     $(".div2").hover(function () {
         // over
         $(".po2").animate({ opacity: 1 }, 50);
