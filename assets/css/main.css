@@ -154,7 +154,7 @@ body {
   top: 80%;
 }
 
-.portfolio-card:hover .portfolio-overlay {
+/* .portfolio-card:hover .portfolio-overlay {
   opacity: 1;
 }
 
@@ -162,8 +162,13 @@ body {
   top: 50%;
   left: 50%;
   opacity: 1;
-}
+} */
 
+.portfolio-hover-effect {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
 /* contact us */
 
 .contact-us h2 {
