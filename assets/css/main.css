@@ -7,7 +7,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.error {
+.danger {
     font-size: 15px;
     display: none;
 }
