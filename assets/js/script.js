@@ -144,9 +144,9 @@ $(document).ready(function () {
 
         // Check for empty fields
         if (name == '' || email == '' || message == '') {
-            $("#name-error").html("<p class='text-danger'>Please fill in all fields.</p>");
-            $("#email-error").html("<p class='text-danger'>Please fill in all fields.</p>");
-            $("#message-error").html("<p class='text-danger'>Please fill in all fields.</p>");
+            $("#name-error").html("<p class='text-danger'>Please fill in you name.</p>");
+            $("#email-error").html("<p class='text-danger'>Please fill in your valid email.</p>");
+            $("#message-error").html("<p class='text-danger'>Please fill in the field.</p>");
         } else if (email == '' || !emailReg.test(email)) {
             $("#email-error").html("<p class='text-danger'>Please enter a valid email address.</p>");
         } else {
