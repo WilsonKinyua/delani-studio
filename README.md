@@ -31,7 +31,6 @@ Week 3 Independent Project | Delani Studio at Moringa School Prep Module. A land
 <img src="./assets/img/screenshots/5.png" alt="screenshot" />
 <img src="./assets/img/screenshots/6.png" alt="screenshot" />
 <img src="./assets/img/screenshots/7.png" alt="screenshot" />
-<img src="./assets/img/screenshots/8.png" alt="screenshot" />
 
 ## Known Bugs
  So far so good there are no bugs related to this project 😎
